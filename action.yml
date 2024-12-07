@@ -1,0 +1,12 @@
+name: 'CarbonRunner'
+description: 'Links a Github Workflow Job to CarbonRunner'
+inputs:
+  jobId:
+    description: 'The current job id'
+    required: true
+outputs:
+  runnerId: # id of output
+    description: 'The ID of the runner'
+runs:
+  using: 'node20'
+  main: 'index.js'
