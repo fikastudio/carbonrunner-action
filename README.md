@@ -17,7 +17,7 @@ The ID of the runner, in case your interested
 ## Example usage
 
 ```yaml
-uses: fikastudio/carbonrunner-action@main
-with:
-  jobId: ${{ github.run_id }}
+      - uses: fikastudio/carbonrunner-action@main
+        with:
+          jobId: ${{ github.run_id }}
 ```
